@@ -1,0 +1,121 @@
+﻿   .divFind {
+          
+           padding-top:30px;
+           text-align:center;
+           padding-left:50px;
+           padding-right:65px;
+        }
+      .txtFind {
+
+           width:99%;
+           border:1px solid #A4C6FD;
+             box-shadow: 0 0px 10px #A4C6FD;
+            
+        }
+      .ddlType {
+         height:40px;
+          border:1px solid #A4C6FD;
+         box-shadow: 0 0px 10px #A4C6FD;
+         width:200px;
+         line-height:5px;
+         font-size:18px;
+    }
+       .mtreeHeight {
+        height:520px;
+        overflow: auto;
+    }
+    
+    .containerWrap {
+    width: 100%;
+    height: 530px;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: auto; /* 1 */
+    text-align: justify; /* 3 */
+ 
+}
+ .TablePanel {
+       display: inline-block;
+       width:250px;
+       height:500px;
+       border:1px solid #A4C6FD;
+       float:left;
+       margin-left:10px;
+       box-shadow: 0 0px 10px #A4C6FD;
+       border-radius:5px;
+        text-align: center;
+    }
+    .TablePanel hr {
+         margin-top: 0px; 
+     margin-bottom: 0px; 
+      border:1px solid #A4C6FD;
+     box-shadow: 0 0px 10px #A4C6FD;
+    }
+    .TableHead {
+      height:25px;
+      font-size:22px;
+      margin-top:5px;
+      margin-bottom:10px;
+    }
+    .TableContent {
+       height:420px;
+       overflow:auto;
+
+    }
+    .TableFooter {
+       height:30px;
+    }
+    .TableBtn {
+       width:100px;
+       height:28px;
+       border:1px solid #A4C6FD;
+       box-shadow: 0 0px 10px #A4C6FD;
+       border-radius:3px;
+       background-color:transparent;
+       margin-top:3px;
+    }
+    .TableContent ul {
+     list-style:none; 
+     width:248px;
+     height:408px;
+     text-align:left;
+     padding:0px;
+     margin:0xp;
+     overflow:auto;
+     float:left;
+     margin-top:2px;
+    }
+    .TableContent ul li table {
+        width:245px;
+    }
+    .TableLeftOrInner {
+       width:50px;
+       height:18px;
+       border:1px solid #A4C6FD;
+       box-shadow: 0 0px 10px #A4C6FD;
+       border-radius:1px;
+       background-color:transparent;
+      
+    }
+
+     .containerWrapFooter {
+    width: 100%;
+    height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: auto; /* 1 */
+    text-align: justify; /* 3 */
+}
+     .TablePanelFooter {
+       display: inline-block;
+       
+       padding:13px;
+       height:30px;
+       border:1px solid #A4C6FD;
+       float:left;
+       margin-left:10px;
+       box-shadow: 0 0px 10px #A4C6FD;
+       border-radius:5px;
+       text-align: center;
+       margin-top: 5px;
+    }

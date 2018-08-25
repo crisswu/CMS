@@ -1,0 +1,158 @@
+﻿   .divKJL
+        {
+               position:absolute;
+               width:605px;
+               height:50px;
+               border:2px solid #BEBEBE;
+               left:100px;
+               top:40px;
+               border-radius: 5px;    
+               box-shadow: 8px 8px 8px 2px #4F4F4F; 
+               background: hsla(0,0%,100%,.2);
+        }
+        .ulKJL {
+            list-style:none; 
+              padding-top: 6px;
+                  padding-left: 0px;
+        }
+        .ulKJL li {
+            float:left;
+          margin-left: 40px;
+        }
+        .divYBP
+        {
+               position:absolute;
+               width:605px;
+               height:230px;
+               border:2px solid #BEBEBE;
+               left:100px;
+               top:50px;
+               border-radius: 5px;    
+               box-shadow: 8px 8px 8px 2px #4F4F4F; 
+               background: hsla(0,0%,100%,.2);
+        }
+        .divBackUp
+        {
+               position:absolute;
+               width:600px;
+               height:230px;
+               border:2px solid #BEBEBE;
+               left:730px;
+               top:100px;
+               border-radius: 5px;    
+               box-shadow: 8px 8px 8px 2px #4F4F4F; 
+               background: hsla(0,0%,100%,.2);
+        }
+        .divRemind
+        {
+               position:absolute;
+               width:605px;
+               height:400px;
+               border:2px solid #BEBEBE;
+               left:100px;
+               top:306px;
+               border-radius: 5px;    
+               box-shadow: 8px 8px 8px 2px #4F4F4F; 
+               background: hsla(0,0%,100%,.0);
+        }
+          .divError
+        {
+               position:absolute;
+               width:600px;
+               height:400px;
+               border:2px solid #BEBEBE;
+               left:730px;
+               top:356px;
+               border-radius: 5px;    
+               box-shadow: 8px 8px 8px 2px #4F4F4F; 
+               background: hsla(0,0%,100%,.1);
+        }
+        .btnSave {
+             position:absolute;
+               width:200px;
+               height:32px;
+               border:1px solid #BEBEBE;
+               left:260px;
+               top:770px;
+               border-radius: 5px;    
+               box-shadow: 8px 8px 8px 2px #4F4F4F; 
+               background: hsla(0,0%,100%,.1);
+                color:#bcc2be;
+              display:none;
+        }
+        .Level1 {
+           background-color:#009900;
+           width:20px;
+           height:20px;
+           float:left;
+           margin-left:10px;
+        }
+        .Level2 {
+           background-color:#61a9dc;
+           width:20px;
+           height:20px;
+           float:left;
+            margin-left:10px;
+        }
+        .Level3 {
+           background-color:#660066;
+           width:20px;
+           height:20px;
+           float:left;
+            margin-left:10px;
+        }
+        .Level4 {
+           background-color:#CC6600;
+           width:20px;
+           height:20px;
+           float:left;
+            margin-left:10px;
+        }
+        .Level5 {
+           background-color:#FFFF00;
+           width:20px;
+           height:20px;
+           float:left;
+            margin-left:10px;
+        }
+        .LeveSP {
+         float:left;
+         color:white;
+         margin-left:200px;
+        }
+        .Leves {
+          
+        }
+        .textArea {
+          width:605px;
+          height:400px;
+          border:none;
+          background: hsla(0,0%,100%,0);
+          color:#bcc2be;
+         font-family:Verdana;
+         font-size:20px;
+         overflow-y:auto;
+        }
+        .textAreaOut {
+          width:575px;
+          height:400px;
+          border:none;
+          background: hsla(0,0%,100%,0);
+          color:#bcc2be;
+         font-family:Verdana;
+         font-size:20px;
+         overflow:hidden;
+        }
+
+         .divVisit
+        {
+               position:absolute;
+               width:600px;
+               height:656px;
+               border:2px solid #BEBEBE;
+               left:1360px;
+               top:100px;
+               border-radius: 5px;    
+               box-shadow: 8px 8px 8px 2px #4F4F4F; 
+               background: hsla(0,0%,100%,.1);
+        }

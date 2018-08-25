@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\WORK\AC发布文件</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AddFather.aspx">
+      <publishTime>06/11/2017 10:33:56</publishTime>
+    </File>
+    <File Include="AddGrand.aspx">
+      <publishTime>06/11/2017 10:25:44</publishTime>
+    </File>
+    <File Include="AddPage.aspx">
+      <publishTime>06/10/2017 22:48:44</publishTime>
+    </File>
+    <File Include="AmazeUI/admin-404.html">
+      <publishTime>06/10/2017 09:10:45</publishTime>
+    </File>
+    <File Include="AmazeUI/admin-form.html">
+      <publishTime>06/10/2017 09:10:45</publishTime>
+    </File>
+    <File Include="AmazeUI/admin-gallery.html">
+      <publishTime>06/10/2017 09:10:45</publishTime>
+    </File>
+    <File Include="AmazeUI/admin-help.html">
+      <publishTime>06/10/2017 09:10:45</publishTime>
+    </File>
+    <File Include="AmazeUI/admin-index.html">
+      <publishTime>06/10/2017 09:10:45</publishTime>
+    </File>
+    <File Include="AmazeUI/admin-log.html">
+      <publishTime>06/10/2017 09:10:45</publishTime>
+    </File>
+    <File Include="AmazeUI/admin-table.html">
+      <publishTime>06/10/2017 09:10:45</publishTime>
+    </File>
+    <File Include="AmazeUI/admin-user.html">
+      <publishTime>06/10/2017 09:10:45</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/css/admin.css">
+      <publishTime>06/10/2017 09:11:03</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/css/amazeui.css">
+      <publishTime>06/10/2017 09:11:03</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/css/amazeui.flat.css">
+      <publishTime>06/10/2017 09:11:03</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/css/amazeui.flat.min.css">
+      <publishTime>06/10/2017 09:11:03</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/css/amazeui.min.css">
+      <publishTime>06/10/2017 09:11:03</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/css/app.css">
+      <publishTime>06/10/2017 09:11:03</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/fonts/fontawesome-webfont.eot">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/fonts/fontawesome-webfont.ttf">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/fonts/fontawesome-webfont.woff">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/fonts/fontawesome-webfont.woff2">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/fonts/FontAwesome.otf">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/i/app-icon72x72%402x.png">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/i/examples/admin-chrome.png">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/i/examples/admin-firefox.png">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/i/examples/admin-ie.png">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/i/examples/admin-opera.png">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/i/examples/admin-safari.png">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/i/examples/adminPage.png">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/i/examples/blogPage.png">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/i/examples/landing.png">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/i/examples/landingPage.png">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/i/examples/loginPage.png">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/i/examples/sidebarPage.png">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/i/favicon.png">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/i/startup-640x1096.png">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/js/amazeui.ie8polyfill.js">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/js/amazeui.ie8polyfill.min.js">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/js/amazeui.js">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/js/amazeui.min.js">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/js/amazeui.widgets.helper.js">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/js/amazeui.widgets.helper.min.js">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/js/app.js">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/assets/js/handlebars.min.js">
+      <publishTime>06/10/2017 09:11:04</publishTime>
+    </File>
+    <File Include="AmazeUI/blog.html">
+      <publishTime>06/10/2017 09:10:45</publishTime>
+    </File>
+    <File Include="AmazeUI/index.html">
+      <publishTime>06/10/2017 09:10:45</publishTime>
+    </File>
+    <File Include="AmazeUI/iscroll.html">
+      <publishTime>06/10/2017 09:10:45</publishTime>
+    </File>
+    <File Include="AmazeUI/landing.html">
+      <publishTime>06/10/2017 09:10:45</publishTime>
+    </File>
+    <File Include="AmazeUI/login.html">
+      <publishTime>06/10/2017 09:10:45</publishTime>
+    </File>
+    <File Include="AmazeUI/non-responsive.html">
+      <publishTime>06/10/2017 09:10:45</publishTime>
+    </File>
+    <File Include="AmazeUI/sidebar.html">
+      <publishTime>06/10/2017 09:10:45</publishTime>
+    </File>
+    <File Include="AmazeUI/widget.basic.html">
+      <publishTime>06/10/2017 09:10:45</publishTime>
+    </File>
+    <File Include="AmazeUI/widget.html">
+      <publishTime>06/10/2017 09:10:45</publishTime>
+    </File>
+    <File Include="ApplicationInsights.config">
+      <publishTime>06/10/2017 09:02:24</publishTime>
+    </File>
+    <File Include="App_Code/NewSQL.cs">
+      <publishTime>06/10/2017 13:23:01</publishTime>
+    </File>
+    <File Include="App_Code/SQLite.cs">
+      <publishTime>06/10/2017 13:22:41</publishTime>
+    </File>
+    <File Include="assets/css/animate.min.css">
+      <publishTime>06/25/2017 15:23:43</publishTime>
+    </File>
+    <File Include="assets/css/bootstrap.min.css">
+      <publishTime>06/25/2017 15:23:44</publishTime>
+    </File>
+    <File Include="assets/css/demo.css">
+      <publishTime>06/25/2017 15:23:44</publishTime>
+    </File>
+    <File Include="assets/css/font-awesome.min.css">
+      <publishTime>06/25/2017 15:23:44</publishTime>
+    </File>
+    <File Include="assets/css/paper-dashboard.css">
+      <publishTime>06/25/2017 16:43:49</publishTime>
+    </File>
+    <File Include="assets/css/paper-right.css">
+      <publishTime>06/25/2017 17:20:43</publishTime>
+    </File>
+    <File Include="assets/css/themify-icons.css">
+      <publishTime>06/25/2017 15:23:44</publishTime>
+    </File>
+    <File Include="assets/fonts/themify.eot">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/fonts/themify.svg">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/fonts/themify.ttf">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/fonts/themify.woff">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/img/apple-icon.png">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/img/background.jpg">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/img/faces/face-0.jpg">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/img/faces/face-1.jpg">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/img/faces/face-2.jpg">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/img/faces/face-3.jpg">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/img/favicon.png">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/img/new_logo.png">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/img/tim_80x80.png">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap-checkbox-radio.js">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap-notify.js">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap.min.js">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/js/chartist.min.js">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/js/demo.js">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/js/jquery.min.js">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="assets/js/paper-dashboard.js">
+      <publishTime>06/25/2017 15:23:45</publishTime>
+    </File>
+    <File Include="bin/AndroidCrss.dll">
+      <publishTime>06/18/2017 17:39:02</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>06/10/2017 09:02:24</publishTime>
+    </File>
+    <File Include="bin/CMS.dll">
+      <publishTime>06/25/2017 19:28:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>11/30/2016 16:07:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>12/07/2016 11:45:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>12/07/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>12/06/2016 15:15:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>12/07/2016 11:49:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>12/07/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>12/06/2016 15:09:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Qiniu.dll">
+      <publishTime>03/08/2017 15:24:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/System.Data.SQLite.dll">
+      <publishTime>03/31/2012 09:59:20</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7/css/bootstrap-theme.css">
+      <publishTime>06/25/2017 17:07:36</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7/css/bootstrap-theme.css.map">
+      <publishTime>06/25/2017 17:07:36</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7/css/bootstrap-theme.min.css">
+      <publishTime>06/25/2017 17:07:36</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7/css/bootstrap-theme.min.css.map">
+      <publishTime>06/25/2017 17:07:36</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7/css/bootstrap.css">
+      <publishTime>06/25/2017 17:08:25</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7/css/bootstrap.css.map">
+      <publishTime>06/25/2017 17:07:36</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7/css/bootstrap.min.css">
+      <publishTime>06/25/2017 17:07:36</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7/css/bootstrap.min.css.map">
+      <publishTime>06/25/2017 17:07:36</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>06/25/2017 17:07:36</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>06/25/2017 17:07:36</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>06/25/2017 17:07:36</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>06/25/2017 17:07:36</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>06/25/2017 17:07:36</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7/js/bootstrap.js">
+      <publishTime>06/25/2017 17:07:36</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7/js/bootstrap.min.js">
+      <publishTime>06/25/2017 17:07:36</publishTime>
+    </File>
+    <File Include="bootstrap-3.3.7/js/npm.js">
+      <publishTime>06/25/2017 17:07:36</publishTime>
+    </File>
+    <File Include="Bowtech.db">
+      <publishTime>06/25/2017 15:21:53</publishTime>
+    </File>
+    <File Include="ContentPage.aspx">
+      <publishTime>06/10/2017 22:11:51</publishTime>
+    </File>
+    <File Include="Demo.aspx">
+      <publishTime>06/15/2017 22:40:47</publishTime>
+    </File>
+    <File Include="Demo2.aspx">
+      <publishTime>06/18/2017 17:37:39</publishTime>
+    </File>
+    <File Include="FatherPage.aspx">
+      <publishTime>06/11/2017 11:41:43</publishTime>
+    </File>
+    <File Include="Images/plus.png">
+      <publishTime>06/14/2017 21:44:50</publishTime>
+    </File>
+    <File Include="Index.aspx">
+      <publishTime>06/18/2017 17:38:49</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>06/15/2017 22:47:25</publishTime>
+    </File>
+    <File Include="Main.aspx">
+      <publishTime>06/25/2017 19:28:11</publishTime>
+    </File>
+    <File Include="Master/PageMaster.Master">
+      <publishTime>06/25/2017 18:06:48</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/10/2017 09:02:24</publishTime>
+    </File>
+    <File Include="Page/Index.aspx">
+      <publishTime>06/25/2017 17:58:36</publishTime>
+    </File>
+    <File Include="Script/jquery-1.10.2.min.js">
+      <publishTime>06/10/2017 09:04:50</publishTime>
+    </File>
+    <File Include="TEST.aspx">
+      <publishTime>06/10/2017 12:29:04</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/25/2017 19:28:49</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,218 @@
+﻿ .radio-btn input[type="radio"], .check-box input[type="checkbox"] {
+    visibility: hidden;
+}
+/*Custom checkbox*/
+ .check-box {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 2px 7px 0 0;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(47%, rgba(246, 246, 246, 1)), color-stop(100%, rgba(237, 237, 237, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+    border: 1px solid #ccc;
+}
+.check-box i {
+    background: url('css/check_mark.png') no-repeat center center;
+    position: absolute;
+    left: 3px;
+    bottom: -15px;
+    width: 16px;
+    height: 16px;
+    opacity: .5;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+    -webkit-transform:rotateZ(-180deg);
+    -moz-transform:rotateZ(-180deg);
+    -o-transform:rotateZ(-180deg);
+    transform:rotateZ(-180deg);
+}
+.checkedBox {
+    -moz-box-shadow: inset 0 0 5px 1px #ccc;
+    -webkit-box-shadow: inset 0 0 5px 1px #ccc;
+    box-shadow: inset 0 0 5px 1px #ccc;
+    border-bottom-color: #fff;
+}
+.checkedBox i {
+    bottom: 2px;
+    -webkit-transform:rotateZ(0deg);
+    -moz-transform:rotateZ(0deg);
+    -o-transform:rotateZ(0deg);
+    transform:rotateZ(0deg);
+}
+/*Custom radio button*/
+ .radio-btn {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    float: left;
+    margin: 3px 7px 0 0;
+    cursor: pointer;
+    position: relative;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 1px #ccc;
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(47%, rgba(246, 246, 246, 1)), color-stop(100%, rgba(237, 237, 237, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+}
+.checkedRadio {
+    -moz-box-shadow: inset 0 0 5px 1px #ccc;
+    -webkit-box-shadow: inset 0 0 5px 1px #ccc;
+    box-shadow: inset 0 0 5px 1px #ccc;
+}
+.radio-btn i {
+    border: 1px solid #E1E2E4;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+.checkedRadio i {
+    background-color: #898A8C;
+}.ulRido {    float:left;    width:50px;     margin-top:8px;} .ulRido1 {    float:left;    width:50px;   margin-left:25px;   margin-top:8px;}.ulRido2 {    float:left;    width:50px;     margin-top:8px;      margin-left:60px;} .ulRido1 span {        position: relative;        top: 14px;    }    .ulRido span {        position: relative;        top: 14px;    }        .ulRido2 span {        position: relative;        top: 14px;    }          .divFind {
+          
+           padding-top:30px;
+           text-align:center;
+           padding-left:50px;
+           padding-right:65px;
+        }
+      .txtFind {
+
+           width:99%;
+           border:1px solid #A4C6FD;
+             box-shadow: 0 0px 10px #A4C6FD;
+            
+        }
+      .ddlType {
+         height:40px;
+          border:1px solid #A4C6FD;
+         box-shadow: 0 0px 10px #A4C6FD;
+         width:200px;
+         line-height:5px;
+         font-size:18px;
+    }
+       .mtreeHeight {
+        height:520px;
+        overflow: auto;
+    }
+    
+    .containerWrap {
+    width: 100%;
+    height: 530px;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: auto; /* 1 */
+    text-align: justify; /* 3 */
+ 
+}
+ .TablePanel {
+       display: inline-block;
+       width:250px;
+       height:500px;
+       border:1px solid #A4C6FD;
+       float:left;
+       margin-left:10px;
+       box-shadow: 0 0px 10px #A4C6FD;
+       border-radius:5px;
+        text-align: center;
+    }
+    .TablePanel hr {
+         margin-top: 0px; 
+     margin-bottom: 0px; 
+      border:1px solid #A4C6FD;
+     box-shadow: 0 0px 10px #A4C6FD;
+    }
+    .TableHead {
+      height:25px;
+      font-size:22px;
+      margin-top:5px;
+      margin-bottom:10px;
+    }
+    .TableContent {
+       height:420px;
+       overflow:auto;
+
+    }
+    .TableFooter {
+       height:30px;
+    }
+    .TableBtn {
+       width:100px;
+       height:28px;
+       border:1px solid #A4C6FD;
+       box-shadow: 0 0px 10px #A4C6FD;
+       border-radius:3px;
+       background-color:transparent;
+       margin-top:3px;
+    }
+    .TableContent ul {
+     list-style:none; 
+     width:248px;
+     height:408px;
+     text-align:left;
+     padding:0px;
+     margin:0xp;
+     overflow:auto;
+     float:left;
+     margin-top:2px;
+    }
+    .TableContent ul li table {
+        width:245px;
+    }
+    .TableLeftOrInner {
+       width:50px;
+       height:18px;
+       border:1px solid #A4C6FD;
+       box-shadow: 0 0px 10px #A4C6FD;
+       border-radius:1px;
+       background-color:transparent;
+      
+    }
+
+     .containerWrapFooter {
+    width: 100%;
+    height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: auto; /* 1 */
+    text-align: justify; /* 3 */
+}
+     .TablePanelFooter {
+       display: inline-block;
+       
+       padding:13px;
+       height:30px;
+       border:1px solid #A4C6FD;
+       float:left;
+       margin-left:10px;
+       box-shadow: 0 0px 10px #A4C6FD;
+       border-radius:5px;
+       text-align: center;
+       margin-top: 5px;
+    } 
